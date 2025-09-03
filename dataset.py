@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # API Key
-api_key = "f18bce1f9c6e475f8852f67591d6ccc0"
+api_key = "314b6962d8b84333bbdfc0db1a285a9b"
 
 # Endpoint
 url = "https://api.twelvedata.com/time_series"
@@ -30,3 +30,4 @@ print(df.head())
 
 # Simpan ke CSV
 df.to_csv("dataset.csv", index=False)
+
